@@ -2,7 +2,7 @@
   "name": "atom-solarized-dark-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "A dark syntax theme base on atom/solarized-dark-syntax",
+  "description": "A dark syntax theme based on atom/solarized-dark-syntax",
   "keywords": [
     "dark",
     "solarized",

@@ -1,6 +1,6 @@
 # atom-solarized-dark-syntax theme
 
-A dark syntax theme base on  [atom/solarized-dark-syntax](https://github.com/atom/solarized-dark-syntax).
+A dark syntax theme based on  [atom/solarized-dark-syntax](https://github.com/atom/solarized-dark-syntax).
 
 ![atom-solarized-dark-syntax_screenshot](https://cloud.githubusercontent.com/assets/20783502/24732954/f5a5abfa-1aa6-11e7-8e24-06f76f0d917b.png)
 
