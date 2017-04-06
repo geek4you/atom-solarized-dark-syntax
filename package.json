@@ -1,0 +1,17 @@
+{
+  "name": "atom-solarized-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark syntax theme base on atom/solarized-dark-syntax",
+  "keywords": [
+    "dark",
+    "solarized",
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/ooJerryLeeoo/atom-solarized-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
