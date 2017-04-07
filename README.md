@@ -27,11 +27,11 @@ Done ​:tada:​
 
 ### C++
 
-![C++](screenshot/C++.png?raw=true)
+![C++](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/screenshot/C++.png)
 
 ### Markdown
 
-![Markdown](screenshot/Markdown.png?raw=true)
+![Markdown](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/screenshot/Markdown.png)
 
 ## License
 
