@@ -1,0 +1,97 @@
+// markup
+.syntax--markup {
+  -webkit-font-smoothing: auto;
+  &.syntax--bold {
+    font-weight: bold;
+    color: @blue;
+  }
+  &.syntax--italic {
+    font-style: italic;
+    color: @blue;
+  }
+
+  &.syntax--heading {
+    color: @orange;
+  }
+
+  &.syntax--link {
+    color: @cyan;
+  }
+
+  &.syntax--deleted {
+    color: @red;
+  }
+
+  &.syntax--changed {
+    color: @yellow;
+  }
+
+  &.syntax--inserted {
+    color: @cyan;
+  }
+}
+
+// markdown
+.syntax--gfm {
+  -webkit-font-smoothing: auto;
+  .syntax--link .syntax--entity {
+    color: @violet;
+  }
+
+  .syntax--list {
+    &.syntax--ordered {
+      color: @green;
+    }
+    &.syntax--unordered {
+      color: @green;
+    }
+  }
+
+  .syntax--raw {
+    color: @yellow;
+  }
+
+  &.syntax--support {
+    color:@syntax-comment-color;
+    &.syntax--quote {
+      color: @green;
+    }
+  }
+}
+
+// markdown-preview
+.markdown-preview:not([data-use-github-style]) {
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    color: @orange;
+  }
+
+  // Link
+  a,
+  a code {
+    color: lighten(@blue, 5%);
+  }
+
+  // Emphasis
+  strong {
+    color: contrast(@syntax-text-color, lighten(@syntax-text-color, 16%), darken(@syntax-text-color, 16%));
+  }
+
+  // Table
+
+  th {
+    color: lighten(@syntax-text-color, 10%);
+  }
+
+  // Code
+  code {
+    color: @yellow;
+    background-color: @syntax-selection-color;
+  }
+
+  // KBD
+  kbd {
+    color: @yellow;
+    background-color: @syntax-selection-color;
+  }
+}
