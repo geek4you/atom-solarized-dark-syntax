@@ -90,11 +90,11 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  &.syntax--numeric {
-    color: @magenta;
-  }
+  color: @green;
+
+  &.syntax--numeric,
   &.syntax--language {
-    color: @yellow;
+    color: @violet;
   }
   &.syntax--character,
   &.syntax--other {
@@ -122,8 +122,13 @@ atom-text-editor {
       color: @blue;
     }
   }
+
   &.syntax--other.syntax--attribute-name {
     color: @syntax-subtle-color;
+  }
+
+  &.syntax--name.syntax--section {
+    color: @blue;
   }
 }
 
