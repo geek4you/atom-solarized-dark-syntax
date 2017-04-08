@@ -1,12 +1,16 @@
 # Changelog
 
+## 1.0.2
+
+Update some styles
+
 ## 1.0.1
 
-change the way to display png on README.md
+Change the way to display png on README.md
 
 ## 1.0.0
 
-for some unknown reason I cannot publish v0.2.0 to atom.io so I publish to v1.0.0
+For some unknown reason I cannot publish v0.2.0 to atom.io so I publish to v1.0.0
 
 ## 0.2.0
 
