@@ -56,6 +56,17 @@
   .syntax--support {
     &.syntax--function {
       color: @blue;
+      &.syntax--C99 {
+        color: @green;
+      }
+    }
+  }
+  .syntax--constant {
+    &.syntax--character.syntax--escape {
+      color: @red;
+    }
+    &.syntax--other.syntax--placeholder {
+      color: @orange;
     }
   }
 }
