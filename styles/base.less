@@ -96,8 +96,10 @@ atom-text-editor {
   &.syntax--language {
     color: @violet;
   }
-  &.syntax--character,
-  &.syntax--other {
+  &.syntax--character.syntax--escape {
+    color: @red;
+  }
+  &.syntax--other.syntax--placeholder {
     color: @orange;
   }
 }
