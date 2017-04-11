@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0
+
+* Fix a variable undefined bug
+
+Update some styles
+
 ## 1.0.2
 
 Update some styles
