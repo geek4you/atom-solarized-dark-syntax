@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+* :lipstick: Better linter-ui styles
+
 ## 1.1.1
 
 * :bug: Fix a linter color bug
