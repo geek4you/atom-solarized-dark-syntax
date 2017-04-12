@@ -1,4 +1,3 @@
-@import "ui-variables";
 @import "syntax-variables";
 
 atom-text-editor {
@@ -189,13 +188,27 @@ atom-text-editor.editor .linter-highlight, .linter-highlight {
     }
   }
   &.linter-info {
-    .error_type(@background-color-info, -1);
+    .error_type(@syntax-linter-info, -1);
   }
   &.linter-warning {
-    .error_type(@background-color-warning, 0);
+    .error_type(@syntax-linter-warning, 0);
   }
   &.linter-error {
-    .error_type(@background-color-error, 1);
+    .error_type(@syntax-linter-error, 1);
+  }
+}
+.tree-view {
+  .error_type(@color) {
+    border-bottom: 2px dotted @color;
+  }
+  .linter-info {
+    .error_type(@syntax-linter-info);
+  }
+  .linter-warning {
+    .error_type(@syntax-linter-warning);
+  }
+  .linter-error {
+    .error_type(@syntax-linter-error);
   }
 }
 
