@@ -38,6 +38,22 @@
     color: @violet;
   }
 
+  // show markdown double-space line breaks
+  .syntax--linebreak:after {
+    font-family: 'Octicons Regular';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 1rem;
+    height: 1rem;
+    content: " \f0a8"; //found no better icon in octicons
+    color: @syntax-invisible-character-color;
+  }
+
   .syntax--list {
     &.syntax--ordered {
       color: @green;
@@ -49,6 +65,7 @@
 
   .syntax--raw {
     color: @yellow;
+    background-color: @syntax-selection-color;
   }
 
   &.syntax--support {
@@ -56,6 +73,11 @@
     &.syntax--quote {
       color: @green;
     }
+  }
+
+  &.syntax--strike {
+    color: @blue;
+    text-decoration: line-through;
   }
 }
 
@@ -75,6 +97,10 @@
   // Emphasis
   strong {
     color: contrast(@syntax-text-color, lighten(@syntax-text-color, 16%), darken(@syntax-text-color, 16%));
+  }
+
+  del {
+    color: @base01;
   }
 
   // Table
