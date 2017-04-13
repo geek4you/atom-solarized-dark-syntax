@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.3
+
+* :lipstick: Markdown strikethrough just like ![screen shot 2017-04-14 at 00 14 20](https://cloud.githubusercontent.com/assets/20783502/25013737/625f11e0-20a7-11e7-8915-9ba3208f90d5.png)
+* :lipstick: Show markdown double space line breaks  ![screen shot 2017-04-14 at 00 15 56](https://cloud.githubusercontent.com/assets/20783502/25013801/941e2afe-20a7-11e7-91c4-c50aaf87477d.png)
+* :page_facing_up: Update LICENSE.md
+
 ## 1.1.2
 
 * :lipstick: Better linter-ui styles
