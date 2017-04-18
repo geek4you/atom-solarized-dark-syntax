@@ -12,6 +12,9 @@
 
   &.syntax--heading {
     color: @orange;
+    &.syntax--marker {
+      color: @yellow;
+    }
   }
 
   &.syntax--link {
@@ -69,14 +72,18 @@
     background-color: @syntax-selection-color;
   }
 
-  &.syntax--support {
+  .syntax--comment.syntax--quote {
+    font-style: normal;
+  }
+
+  .syntax--support {
     color:@syntax-comment-color;
     &.syntax--quote {
       color: @green;
     }
   }
 
-  &.syntax--strike {
+  .syntax--strike {
     color: @blue;
     text-decoration: line-through;
   }
