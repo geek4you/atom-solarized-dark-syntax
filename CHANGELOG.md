@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.5
+
+* :lipstick: Update some Markdown styles
+* :lipstick: Adjust @syntax-selection-flash-color
+
 ## 1.1.4
 
 * :fire: Remove linter-ui 2px dotted underline just for now
