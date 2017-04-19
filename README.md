@@ -29,9 +29,9 @@ Done ​:tada:​
 
 ![C++](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/screenshot/C++.png)
 
-### Markdown
+### GitHub Markdown
 
-![Markdown](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/screenshot/Markdown.png)
+![GitHub_Markdown](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/screenshot/GitHub_Markdown.png)
 
 ## License
 
