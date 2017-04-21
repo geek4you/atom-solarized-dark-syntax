@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.6
+
+* :lipstick: Enable linter-ui 2px dotted underline
+* :lipstick: Adjust fold-marker color
+
 ## 1.1.5
 
 * :lipstick: Update some Markdown styles
