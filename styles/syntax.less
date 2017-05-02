@@ -103,3 +103,14 @@
 .syntax--none {
   color: @syntax-text-color;
 }
+
+.syntax--punctuation {
+  &.syntax--array,
+  &.syntax--parameters,
+  &.syntax--string,
+  &.syntax--variable {
+    &.syntax--begin, &.syntax--end {
+      color: @syntax-text-color;
+    }
+  }
+}
