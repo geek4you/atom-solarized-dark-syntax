@@ -7,6 +7,11 @@
     color: @green;
     &.syntax--operator {
       color: @base00;
+      &.syntax--cast,
+      &.syntax--sizeof,
+      &.syntax--cpp {
+        color: @green;
+      }
     }
   }
   .syntax--keyword.syntax--control.syntax--directive {
