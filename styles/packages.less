@@ -1,0 +1,65 @@
+@import "syntax-variables";
+
+// linter-ui
+atom-text-editor.editor .linter-highlight, .linter-highlight {
+  .error_type(@color, @priority) {
+    .region {
+      border-bottom: 2px dotted @color;
+      background-image: none !important;
+    }
+    &.linter-gutter {
+      color: @color;
+      z-index: @priority;
+    }
+  }
+  &.linter-info {
+    .error_type(@syntax-linter-info, -1);
+  }
+  &.linter-warning {
+    .error_type(@syntax-linter-warning, 0);
+  }
+  &.linter-error {
+    .error_type(@syntax-linter-error, 1);
+  }
+}
+.tree-view {
+  .error_type(@color) {
+    border-bottom: 2px dotted @color;
+    background-image: none !important;
+  }
+  .linter-info {
+    .error_type(@syntax-linter-info);
+  }
+  .linter-warning {
+    .error_type(@syntax-linter-warning);
+  }
+  .linter-error {
+    .error_type(@syntax-linter-error);
+  }
+}
+
+// split-diff
+atom-text-editor {
+  .gutter .line-number,
+  .line {
+    &.split-diff-added {
+      background-color: fade(@syntax-color-added, 20%) !important;
+    }
+
+    &.split-diff-removed {
+      background-color: fade(@syntax-color-removed, 20%) !important;
+    }
+
+    &.split-diff-selected {
+      background-color: fade(@syntax-color-modified, 20%) !important;
+    }
+  }
+
+  .split-diff-word-added .region {
+    background-color: fade(@syntax-color-added, 20%) !important;
+  }
+
+  .split-diff-word-removed .region {
+    background-color: fade(@syntax-color-removed, 20%) !important;
+  }
+}

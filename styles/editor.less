@@ -1,0 +1,80 @@
+@import "syntax-variables";
+
+atom-text-editor {
+  color: @syntax-text-color;
+  background-color: @syntax-background-color;
+
+  .line.cursor-line {
+    background-color: @syntax-cursor-line;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    -webkit-font-smoothing: antialiased;
+
+    .line-numbers {
+      background-color: transparent !important;
+    }
+    .line-number {
+      background: transparent;
+      color: @syntax-gutter-text-color;
+
+      &.cursor-line,
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
+      }
+    }
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .fold-marker:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 2px dashed @syntax-invisible-character-color;
+  }
+  .fold-marker:after,
+  .gutter .line-number.folded {
+    color: lighten(@syntax-text-color, 20%);
+  }
+
+  .bracket-matcher .region {
+    border-bottom: 2px solid @syntax-bracket-macher-color;
+    box-sizing: border-box;
+  }
+
+  .find-result .region.region.region,
+  .current-result .region.region.region {
+    border-radius: 2px;
+    background-color: @syntax-result-marker-color;
+    transition: border-color .4s;
+  }
+  .find-result .region.region.region {
+    border: 2px solid transparent;
+  }
+  .current-result .region.region.region {
+    border: 2px solid @syntax-result-marker-color-selected;
+    transition-duration: .1s;
+  }
+
+  .spell-check-misspelling .region {
+    border-bottom: 1px dashed hsla(0, 100%, 60%, 0.75);
+  }
+}
