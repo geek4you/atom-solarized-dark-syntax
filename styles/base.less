@@ -9,12 +9,19 @@ atom-text-editor {
   }
 
   .gutter {
-    color: @syntax-gutter-text-color;
     background-color: @syntax-gutter-background-color;
+    -webkit-font-smoothing: antialiased;
 
+    .line-numbers {
+      background-color: transparent !important;
+    }
     .line-number {
-      &.cursor-line {
-        background-color: @syntax-gutter-background-color-selected;
+      background: transparent;
+      color: @syntax-gutter-text-color;
+
+      &.cursor-line,
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
       }
     }
   }
