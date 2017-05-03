@@ -19,9 +19,11 @@
 .syntax--constant {
   color: @green;
 
-  &.syntax--numeric,
-  &.syntax--language {
+  &.syntax--numeric {
     color: @violet;
+  }
+  &.syntax--language {
+    color: @yellow;
   }
   &.syntax--character.syntax--escape {
     color: @red;
@@ -33,6 +35,9 @@
 
 .syntax--variable {
   color: @blue;
+  &.syntax--language {
+    color: @magenta;
+  }
 }
 
 .syntax--keyword {
