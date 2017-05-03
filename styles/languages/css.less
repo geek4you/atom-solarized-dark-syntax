@@ -14,8 +14,13 @@
     }
   }
 
-  .syntax--entity.syntax--name {
-    color: @green;
+  .syntax--entity{
+    &.syntax--name {
+      color: @yellow;
+    }
+  }
+  .syntax--pseudo-element {
+    color: @base00;
   }
   .syntax--attribute-name.syntax--class,
   .syntax--id {
@@ -29,14 +34,8 @@
   .syntax--property-value {
     color: @cyan;
   }
-  .syntax--constant.syntax--numeric {
-    color: @cyan;
-    .syntax--unit {
-      color: @cyan;
-    }
-  }
   .syntax--rgb-value {
-    color: @cyan;
+    color: @orange;
   }
   .syntax--support.syntax--constant {
     color: @cyan;
