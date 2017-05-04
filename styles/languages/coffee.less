@@ -1,18 +1,26 @@
 .syntax--source.syntax--coffee {
-  .syntax--support.syntax--class {
-    color: @green;
+  .syntax--support {
+    &.syntax--class,
+    &.syntax--function {
+      color: @green;
+    }
   }
 
   .syntax--variable,
-  .syntax--entity.syntax--name.syntax--function,
-  .syntax--entity.syntax--name.syntax--class {
+  .syntax--entity.syntax--name.syntax--function {
     color: @blue;
   }
   .syntax--variable.syntax--parameter.syntax--function {
-    color: @syntax-text-color;
+    color: @blue;
   }
-  .syntax--variable.syntax--other.syntax--readwrite {
-    color: @green;
+
+  .syntax--punctuation.syntax--definition.syntax--destructuring {
+    &.syntax--begin,
+    &.syntax--end {
+      &.syntax--bracket.syntax--curly {
+        color: @green;
+      }
+    }
   }
 
   .syntax--storage.syntax--type.syntax--function {
@@ -21,12 +29,18 @@
 
   .syntax--entity.syntax--name {
     color: @syntax-text-color;
+    &.syntax--class,
+    &.syntax--function {
+      color: @yellow;
+    }
   }
 
   .syntax--meta.syntax--brace {
-    &.syntax--round,
+    &.syntax--round {
+      color: @base00;
+    }
     &.syntax--square {
-      color: @syntax-text-color;
+      color: @blue;
     }
   }
   .syntax--meta.syntax--delimiter {
@@ -46,10 +60,6 @@
   }
   .syntax--embedded.syntax--source {
     color: @syntax-text-color;
-  }
-
-  .syntax--constant.syntax--numeric {
-    color: @magenta;
   }
 
   .syntax--constant.syntax--language.syntax--boolean {
