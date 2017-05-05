@@ -11,11 +11,11 @@
     color: @green;
   }
 
-  .syntax--entity.syntax--name.syntax--type {
-    color: @yellow;
-  }
   .syntax--entity.syntax--name {
-    color: @yellow;
+    color: @green;
+    &.syntax--function {
+      color: @yellow;
+    }
   }
 
   .syntax--meta.syntax--brace {
@@ -28,6 +28,7 @@
   .syntax--keyword.syntax--operator {
     color: @base00;
     &.syntax--new,
+    &.syntax--typeof,
     &.syntax--void {
       color: @green;
     }
@@ -40,14 +41,13 @@
   }
 
   .syntax--variable {
-    color: @green;
+    color: @syntax-text-color;
     &.syntax--language {
       color: @magenta;
     }
     &.syntax--other {
-      color: @syntax-text-color;
-      &.syntax--property {
-        color: @green;
+      &.syntax--object {
+        color: @blue;
       }
     }
   }
@@ -59,11 +59,16 @@
     color: @cyan;
   }
 
-  .syntax--support.syntax--function {
-    color: @yellow;
-  }
-  .syntax--support.syntax--constant {
-    color: @syntax-text-color;
+  .syntax--support {
+    &.syntax--function {
+      color: @yellow;
+    }
+    &.syntax--constant {
+      color: @syntax-text-color;
+    }
+    &.syntax--variable {
+      color: @green;
+    }
   }
 
   .syntax--punctuation.syntax--terminator.syntax--statement {
@@ -88,6 +93,10 @@
   }
   &.syntax--embedded .syntax--entity.syntax--name.syntax--tag {
     color: @blue;
+  }
+
+  .syntax--constant.syntax--other {
+    color: @syntax-text-color;
   }
 }
 .syntax--source.syntax--js.syntax--jsx {
