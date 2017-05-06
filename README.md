@@ -1,21 +1,21 @@
-# atom-solarized-dark-syntax theme
+# atom-solarized-dark-syntax
 
-A dark syntax theme based on  [atom/solarized-dark-syntax](https://github.com/atom/solarized-dark-syntax).
+A dark syntax theme based on [atom/solarized-dark-syntax](https://github.com/atom/solarized-dark-syntax) and [braver/Solarized](https://github.com/braver/Solarized).
 
-## Getting Started
+## :checkered_flag: Let's jump right in
 
-All you need is two simple steps!!
+All you need is two simple steps !!
 
-### Install this package
+### :inbox_tray: Installation
 
 Open your terminal and run:
 
 ``` shell
-apm install atom-solarized-dark-syntax
+apm install atom-solarize-dark-syntax
 ```
 
+### :tshirt: Change your syntax theme
 
-### Change your syntax theme
 
 1. Goto your atom settings page
 2. Select `Themes` from the left menu
@@ -23,16 +23,36 @@ apm install atom-solarized-dark-syntax
 
 Done ​:tada:​
 
-## Screenshot
+## :camera: Screenshot
 
-### C++
+### :camera: language-c
 
-![C++](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/C++.png)
+![language-c](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-c.png)
 
-### GitHub Markdown
+### :camera: language-coffee-script
 
-![GitHub_Markdown](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/GitHub_Markdown.png)
+![language-coffee-script](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-coffee-script.png)
 
-## License
+### :camera: language-css
+
+![language-css](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-css.png)
+
+### :camera: language-gfm
+
+![language-gfm](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-gfm.png)
+
+### :camera: language-html
+
+![language-html](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-html.png)
+
+### :camera: language-javascript
+
+![language-javascript](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-javascript.png)
+
+### :camera: language-shellscript
+
+![language-shellscript](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-shellscript.png)
+
+## :page_facing_up: License
 
 This project is licensed under the MIT License - see the :page_facing_up:[LICENSE.md](LICENSE.md) file for details
