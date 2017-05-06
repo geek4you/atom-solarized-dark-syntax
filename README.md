@@ -2,11 +2,15 @@
 
 A dark syntax theme based on [atom/solarized-dark-syntax](https://github.com/atom/solarized-dark-syntax) and [braver/Solarized](https://github.com/braver/Solarized).
 
+![top](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/top.png)
+
 ## :checkered_flag: Let's jump right in
 
 All you need is two simple steps !!
 
 ### :inbox_tray: Installation
+
+#### :inbox_tray: Use apm
 
 Open your terminal and run:
 
@@ -14,13 +18,19 @@ Open your terminal and run:
 apm install atom-solarize-dark-syntax
 ```
 
+#### :inbox_tray: Use Atom
+
+1.  Open `Settings` > `install`
+2.  Select `Themes` filter
+3.  Search `atom-solarized-dark-syntax` and install
+
 ### :tshirt: Change your syntax theme
 
 1.  Goto your atom settings page
 2.  Select `Themes` from the left menu
 3.  Select `Syntax Theme` and click `Atom Solarized Syntax` from the menu
 
-Done ​:tada:​
+Cheers ​:beers::​
 
 ## :camera: Screenshot
 
