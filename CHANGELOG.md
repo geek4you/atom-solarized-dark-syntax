@@ -1,36 +1,41 @@
 # Changelog
 
+## 1.2.0
+
+-   :sparkles: All language syntax are all based on [braver/Solarized](https://github.com/braver/Solarized)
+-   :lipstick: Restyle all language syntax
+
 ## 1.1.6
 
-* :lipstick: Enable linter-ui 2px dotted underline
-* :lipstick: Adjust fold-marker color
+-   :lipstick: Enable linter-ui 2px dotted underline
+-   :lipstick: Adjust fold-marker color
 
 ## 1.1.5
 
-* :lipstick: Update some Markdown styles
-* :lipstick: Adjust @syntax-selection-flash-color
+-   :lipstick: Update some Markdown styles
+-   :lipstick: Adjust @syntax-selection-flash-color
 
 ## 1.1.4
 
-* :fire: Remove linter-ui 2px dotted underline just for now
+-   :fire: Remove linter-ui 2px dotted underline just for now
 
 ## 1.1.3
 
-* :lipstick: Markdown strikethrough just like ![screen shot 2017-04-14 at 00 14 20](https://cloud.githubusercontent.com/assets/20783502/25013737/625f11e0-20a7-11e7-8915-9ba3208f90d5.png)
-* :lipstick: Show markdown double space line breaks  ![screen shot 2017-04-14 at 00 15 56](https://cloud.githubusercontent.com/assets/20783502/25013801/941e2afe-20a7-11e7-91c4-c50aaf87477d.png)
-* :page_facing_up: Update LICENSE.md
+-   :lipstick: Markdown strikethrough just like ![screen shot 2017-04-14 at 00 14 20](https://cloud.githubusercontent.com/assets/20783502/25013737/625f11e0-20a7-11e7-8915-9ba3208f90d5.png)
+-   :lipstick: Show markdown double space line breaks  ![screen shot 2017-04-14 at 00 15 56](https://cloud.githubusercontent.com/assets/20783502/25013801/941e2afe-20a7-11e7-91c4-c50aaf87477d.png)
+-   :page_facing_up: Update LICENSE.md
 
 ## 1.1.2
 
-* :lipstick: Better linter-ui styles
+-   :lipstick: Better linter-ui styles
 
 ## 1.1.1
 
-* :bug: Fix a linter color bug
+-   :bug: Fix a linter color bug
 
 ## 1.1.0
 
-* :bug: Fix a variable undefined bug
+-   :bug: Fix a variable undefined bug
 
 Update some styles
 
@@ -48,9 +53,9 @@ For some unknown reason I cannot publish v0.2.0 to atom.io so I publish to v1.0.
 
 ## 0.2.0
 
-* :lipstick: Better Markdown styles
+-   :lipstick: Better Markdown styles
 
 ## 0.1.0 - First Release
 
-* :lipstick: Add basic styles
-* :lipstick: Better linter-ui and split-diff styles
+-   :lipstick: Add basic styles
+-   :lipstick: Better linter-ui and split-diff styles
