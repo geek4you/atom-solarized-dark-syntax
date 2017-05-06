@@ -10,16 +10,15 @@ All you need is two simple steps !!
 
 Open your terminal and run:
 
-``` shell
+```shell
 apm install atom-solarize-dark-syntax
 ```
 
 ### :tshirt: Change your syntax theme
 
-
-1. Goto your atom settings page
-2. Select `Themes` from the left menu
-3. Select `Syntax Theme` and click `Atom Solarized Syntax` from the menu
+1.  Goto your atom settings page
+2.  Select `Themes` from the left menu
+3.  Select `Syntax Theme` and click `Atom Solarized Syntax` from the menu
 
 Done ​:tada:​
 
@@ -41,18 +40,10 @@ Done ​:tada:​
 
 ![language-gfm](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-gfm.png)
 
-### :camera: language-html
-
-![language-html](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-html.png)
-
 ### :camera: language-javascript
 
 ![language-javascript](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-javascript.png)
 
-### :camera: language-shellscript
-
-![language-shellscript](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-shellscript.png)
-
 ## :page_facing_up: License
 
-This project is licensed under the MIT License - see the :page_facing_up:[LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the :page_facing_up: [LICENSE.md](LICENSE.md) file for details
