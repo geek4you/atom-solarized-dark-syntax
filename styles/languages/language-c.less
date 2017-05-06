@@ -1,65 +1,16 @@
 .syntax--source.syntax--c,
 .syntax--source.syntax--cpp {
-  .syntax--meta.syntax--preprocessor {
-    color: @red;
-  }
-  .syntax--keyword {
-    color: @green;
-    &.syntax--operator {
-      color: @base00;
-      &.syntax--cast,
-      &.syntax--sizeof,
-      &.syntax--cpp {
-        color: @green;
-      }
-    }
-  }
-  .syntax--keyword.syntax--control.syntax--directive {
-    color: @orange;
-  }
-  .syntax--punctuation.syntax--string {
-    color: @cyan;
-  }
-  .syntax--storage {
-    color: @blue;
-    &.syntax--modifier {
-      color: @green;
-    }
-  }
-  .syntax--entity {
-    color: @yellow;
-  }
-  .syntax--support.syntax--type {
-    color: @yellow;
 
-    &.syntax--posix-reserved {
-      color: @syntax-text-color;
+  .syntax--keyword {
+    &.syntax--control.syntax--directive {
+      color: @orange;
     }
   }
-  .syntax--variable {
-    &.syntax--other.syntax--dot-access {
-      color: @syntax-text-color;
-    }
-    &.syntax--parameter.syntax--preprocessor {
-      color: @red;
-    }
-  }
-  .syntax--punctuation {
-    &.syntax--array,
-    &.syntax--parameters,
-    &.syntax--string,
-    &.syntax--variable {
-      &.syntax--begin, &.syntax--end {
-        color: @syntax-text-color;
-      }
-    }
-  }
-  .syntax--support {
-    &.syntax--function {
+
+  .syntax--storage {
+    &.syntax--type {
       color: @blue;
-      &.syntax--C99 {
-        color: @green;
-      }
     }
   }
+
 }

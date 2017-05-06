@@ -18,7 +18,8 @@
   &.syntax--language {
     color: @yellow;
   }
-  &.syntax--other {
+  &.syntax--other,
+  &.syntax--character {
     color: @orange;
     &.syntax--escape {
       color: @red;
@@ -31,14 +32,37 @@
   &.syntax--language {
     color: @magenta;
   }
+  &.syntax--function {
+    color: @yellow;
+  }
+  &.syntax--parameter.syntax--function {
+    color: @blue;
+  }
 }
 
 .syntax--keyword {
   color: @green;
+  &.syntax--operator {
+    &.syntax--comparison,
+    &.syntax--assignment,
+    &.syntax--arithmetic,
+    &.syntax--increment,
+    &.syntax--decrement {
+      color: @base00;
+    }
+  }
+  &.syntax--other {
+    &.syntax--import {
+      color: @orange;
+    }
+  }
 }
 
 .syntax--storage {
   color: @green;
+  &.syntax--type {
+    color: @blue;
+  }
 }
 
 .syntax--entity {
