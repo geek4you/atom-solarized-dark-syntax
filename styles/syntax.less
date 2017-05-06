@@ -3,21 +3,14 @@
 .syntax--comment {
   color: @syntax-comment-color;
   font-style: italic;
-
-  .syntax--markup.syntax--link {
-    color: @syntax-comment-color;
-  }
 }
 
 .syntax--string {
   color: @cyan;
-  &.syntax--regexp {
-    color: @red;
-  }
 }
 
 .syntax--constant {
-  color: @green;
+  color: @yellow;
 
   &.syntax--numeric {
     color: @violet;
@@ -25,11 +18,11 @@
   &.syntax--language {
     color: @yellow;
   }
-  &.syntax--character.syntax--escape {
-    color: @red;
-  }
-  &.syntax--other.syntax--placeholder {
+  &.syntax--other {
     color: @orange;
+    &.syntax--escape {
+      color: @red;
+    }
   }
 }
 
@@ -50,35 +43,19 @@
 
 .syntax--entity {
   &.syntax--name {
-    &.syntax--class,
-    &.syntax--type {
-      color: @blue;
-    }
-    &.syntax--function {
-      color: @yellow;
+    color: @yellow;
+    &.syntax--section {
+      color: @red;
     }
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @syntax-subtle-color;
-  }
-
-  &.syntax--name.syntax--section {
-    color: @blue;
+    color: @yellow;
   }
 }
 
 .syntax--support {
-  &.syntax--function {
-    color: @blue;
-    &.syntax--builtin {
-      color: @green;
-    }
-  }
-  &.syntax--type,
-  &.syntax--class {
-    color: @green;
-  }
+  color: @green;
 }
 
 .syntax--tag {
@@ -98,12 +75,10 @@
   &.syntax--deprecated {
     color: black;
     background-color: @yellow;
-    // font-weight: bold;
   }
   &.syntax--illegal {
     color: black;
     background-color: @red;
-    // font-weight: bold;
   }
 }
 
