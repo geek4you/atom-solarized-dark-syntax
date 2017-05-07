@@ -1,4 +1,4 @@
-# atom-solarized-dark-syntax
+# atom-solarized-dark-syntax [![apm](https://img.shields.io/apm/v/atom-solarized-dark-syntax.svg?style=flat-square)](https://atom.io/themes/atom-solarized-dark-syntax) [![apm](https://img.shields.io/apm/dm/atom-solarized-dark-syntax.svg?style=flat-square)](https://atom.io/themes/atom-solarized-dark-syntax)  [![apm](https://img.shields.io/apm/l/atom-solarized-dark-syntax.svg?style=flat-square)](https://github.com/ooJerryLeeoo/atom-solarized-dark-syntax/blob/master/LICENSE.md) 
 
 A dark syntax theme based on [atom/solarized-dark-syntax](https://github.com/atom/solarized-dark-syntax) and [braver/Solarized](https://github.com/braver/Solarized).
 
