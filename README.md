@@ -1,8 +1,27 @@
-# atom-solarized-dark-syntax [![apm](https://img.shields.io/apm/v/atom-solarized-dark-syntax.svg?style=flat-square)](https://atom.io/themes/atom-solarized-dark-syntax) [![apm](https://img.shields.io/apm/dm/atom-solarized-dark-syntax.svg?style=flat-square)](https://atom.io/themes/atom-solarized-dark-syntax)  [![apm](https://img.shields.io/apm/l/atom-solarized-dark-syntax.svg?style=flat-square)](https://github.com/ooJerryLeeoo/atom-solarized-dark-syntax/blob/master/LICENSE.md) 
+<pre><p align="center">
+╔═╗┌┬┐┌─┐┌┬┐  ╔═╗┌─┐┬  ┌─┐┬─┐┬┌─┐┌─┐┌┬┐  ╔╦╗┌─┐┬─┐┬┌─  ╔═╗┬ ┬┌┐┌┌┬┐┌─┐─┐ ┬
+╠═╣ │ │ ││││  ╚═╗│ ││  ├─┤├┬┘│┌─┘├┤  ││   ║║├─┤├┬┘├┴┐  ╚═╗└┬┘│││ │ ├─┤┌┴┬┘
+╩ ╩ ┴ └─┘┴ ┴  ╚═╝└─┘┴─┘┴ ┴┴└─┴└─┘└─┘─┴┘  ═╩╝┴ ┴┴└─┴ ┴  ╚═╝ ┴ ┘└┘ ┴ ┴ ┴┴ └─</p></pre>
 
-A dark syntax theme based on [atom/solarized-dark-syntax](https://github.com/atom/solarized-dark-syntax) and [braver/Solarized](https://github.com/braver/Solarized).
+<p align="center">
+  <a href="https://atom.io/themes/atom-solarized-dark-syntax">
+    <img src="https://img.shields.io/apm/v/atom-solarized-dark-syntax.svg?style=flat-square" alt="apm">
+  </a>
+  <a href="https://atom.io/themes/atom-solarized-dark-syntax">
+    <img src="https://img.shields.io/apm/dm/atom-solarized-dark-syntax.svg?style=flat-square"  alt="apm"/>
+  </a>
+  <a href="https://github.com/ooJerryLeeoo/atom-solarized-dark-syntax/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/apm/l/atom-solarized-dark-syntax.svg?style=flat-square"  alt="apm"/>
+  </a>
+</p>
 
-![top](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/top.png)
+<p align="center">
+  A dark syntax theme based on <a href="https://github.com/atom/solarized-dark-syntax">atom/solarized-dark-syntax</a> and <a href="https://github.com/braver/Solarized">braver/Solarized</a>.
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/top.png" alt="top">
+</p>
 
 ## :checkered_flag: Let's jump right in
 
@@ -36,23 +55,33 @@ Cheers ​:beers::​
 
 ### :camera: language-c
 
-![language-c](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-c.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-c.png" alt="language-c">
+</p>
 
 ### :camera: language-coffee-script
 
-![language-coffee-script](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-coffee-script.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-coffee-script.png" alt="language-coffee-script">
+</p>
 
 ### :camera: language-css
 
-![language-css](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-css.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-css.png" alt="language-css">
+</p>
 
 ### :camera: language-gfm
 
-![language-gfm](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-gfm.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-gfm.png" alt="language-gfm">
+</p>
 
 ### :camera: language-javascript
 
-![language-javascript](https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-javascript.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-javascript.png" alt="language-javascript">
+</p>
 
 ## :page_facing_up: License
 
