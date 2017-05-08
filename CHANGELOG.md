@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+* :lipstick: Update some styles
+
 ## 1.2.0
 
 * :sparkles: All language syntax are all based on [braver/Solarized](https://github.com/braver/Solarized)
