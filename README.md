@@ -33,7 +33,7 @@ All you need is two simple steps !!
 Open your terminal and run:
 
 ```shell
-apm install atom-solarize-dark-syntax
+apm install atom-solarized-dark-syntax
 ```
 
 #### :inbox_tray: Use Atom
