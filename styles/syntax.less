@@ -21,6 +21,8 @@
   &.syntax--other,
   &.syntax--character {
     color: @orange;
+  }
+  &.syntax--character {
     &.syntax--escape {
       color: @red;
     }
@@ -35,9 +37,6 @@
   &.syntax--function {
     color: @yellow;
   }
-  &.syntax--parameter.syntax--function {
-    color: @blue;
-  }
 }
 
 .syntax--keyword {
@@ -51,9 +50,15 @@
       color: @base00;
     }
   }
-  &.syntax--other {
+  &.syntax--other,
+  &.syntax--control {
     &.syntax--import {
       color: @orange;
+    }
+  }
+  &.syntax--control {
+    &.syntax--class {
+      color: @yellow;
     }
   }
 }
@@ -69,29 +74,30 @@
   &.syntax--name {
     color: @yellow;
     &.syntax--section {
-      color: @red;
+      color: @orange;
+    }
+    &.syntax--tag {
+      color: @blue;
     }
   }
 
-  &.syntax--other.syntax--attribute-name {
-    color: @yellow;
+  &.syntax--other{
+    &.syntax--attribute-name {
+      color: @yellow;
+    }
+    &.syntax--inherited-class {
+      color: @blue;
+    }
+    &.syntax--special-method {
+      color: @orange;
+    }
   }
 }
 
 .syntax--support {
   color: @green;
-}
-
-.syntax--tag {
-  &.syntax--entity.syntax--name {
+  &.syntax--variable {
     color: @blue;
-  }
-  &.syntax--punctuation.syntax--definition {
-    &.syntax--html,
-    &.syntax--begin,
-    &.syntax--end {
-      color: @syntax-comment-color;
-    }
   }
 }
 
@@ -118,5 +124,23 @@
     &.syntax--begin, &.syntax--end {
       color: @syntax-text-color;
     }
+  }
+  &.syntax--section.syntax--embedded {
+    color: @red;
+  }
+  &.syntax--definition {
+    &.syntax--html,
+    &.syntax--begin,
+    &.syntax--end {
+      &.syntax--tag {
+        color: @syntax-comment-color;
+      }
+    }
+  }
+}
+
+.syntax--meta {
+  &.syntax--class {
+    color: @yellow;
   }
 }
