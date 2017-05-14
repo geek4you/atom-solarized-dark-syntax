@@ -44,6 +44,7 @@
   &.syntax--operator {
     &.syntax--comparison,
     &.syntax--assignment,
+    &.syntax--logical,
     &.syntax--increment,
     &.syntax--decrement,
     &.syntax--bitwise.syntax--shift {
@@ -54,6 +55,9 @@
   &.syntax--control {
     &.syntax--import {
       color: @orange;
+    }
+    &.syntax--operator {
+      color: @green;
     }
   }
   &.syntax--control {

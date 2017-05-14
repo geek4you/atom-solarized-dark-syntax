@@ -36,6 +36,7 @@ atom-text-editor {
 
   .cursor {
     border-color: @syntax-cursor-color;
+    transition: opacity 0.5s;
   }
 
   .selection .region {
@@ -56,15 +57,12 @@ atom-text-editor {
   }
 
   .bracket-matcher .region {
-    background: fade(@syntax-bracket-macher-color, 25%);
-    border-radius: 1px;
     border-bottom: 2px solid @syntax-bracket-macher-color;
     box-sizing: border-box;
   }
 
   .find-result .region.region.region,
   .current-result .region.region.region {
-    border-radius: 2px;
     background-color: @syntax-result-marker-color;
     transition: border-color .4s;
   }
