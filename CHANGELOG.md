@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.3
+
+* :lipstick: Update some styles
+
 ## 1.2.2
 
 * Just a typo
