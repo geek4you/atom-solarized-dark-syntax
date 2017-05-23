@@ -61,18 +61,14 @@
   }
 
   .syntax--list {
-    &.syntax--ordered {
-      color: @green;
-    }
-    &.syntax--unordered {
-      color: @green;
-    }
+    color: @magenta;
   }
 
   .syntax--raw {
     border-radius: 3px;
     color: @yellow;
     background-color: @syntax-selection-color;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.1);
   }
 
   .syntax--comment.syntax--quote {
@@ -82,7 +78,7 @@
   .syntax--support {
     color: @syntax-comment-color;
     &.syntax--quote {
-      color: @green;
+      color: @magenta;
     }
   }
 
@@ -91,13 +87,21 @@
     text-decoration: line-through;
   }
 
+  .syntax--string.syntax--emoji {
+    color: @green;
+  }
+
 }
 
 // markdown-preview
 .markdown-preview:not([data-use-github-style]) {
 
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+
+
   // Headings
   h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
     color: @orange;
   }
 
@@ -109,6 +113,10 @@
 
   // Emphasis
   strong {
+    color: contrast(@syntax-text-color, lighten(@syntax-text-color, 16%), darken(@syntax-text-color, 16%));
+  }
+
+  em {
     color: contrast(@syntax-text-color, lighten(@syntax-text-color, 16%), darken(@syntax-text-color, 16%));
   }
 
@@ -125,12 +133,28 @@
   code {
     color: @yellow;
     background-color: @syntax-selection-color;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.4);
   }
 
   // KBD
   kbd {
     color: @yellow;
     background-color: @syntax-selection-color;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  // Blockquote
+  blockquote {
+    border-radius: 0px;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.4);
+    color: @syntax-comment-color;
+  }
+
+  // Other
+  atom-text-editor {
+    border-radius: 0px;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.3);
+    text-shadow: none;
   }
 
 }
