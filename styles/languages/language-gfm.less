@@ -96,9 +96,6 @@
 // markdown-preview
 .markdown-preview:not([data-use-github-style]) {
 
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-
-
   // Headings
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -124,9 +121,33 @@
     color: @base01;
   }
 
+
+  // list
+  ol,
+  ul {
+    color: @yellow;
+    line-height: 2;
+    border-top: 1em solid @syntax-background-color;
+    border-right: 1em solid @syntax-background-color;
+    border-bottom: 1em solid @syntax-background-color;
+    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.5);
+  }
+
+
   // Table
   th {
-    color: lighten(@syntax-text-color, 10%);
+    color: lighten(@syntax-text-color, 25%);
+  }
+
+  td {
+    color: @yellow;
+  }
+
+  th,
+  td {
+    border: 2px solid transparent;
+    background-color: lighten(@syntax-background-color, 2%);
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.7);
   }
 
   // Code
@@ -154,7 +175,6 @@
   atom-text-editor {
     border-radius: 0px;
     box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.3);
-    text-shadow: none;
   }
 
 }
