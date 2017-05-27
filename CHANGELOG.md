@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.4
+
+* :sparkles: Cursor pulsing and 2px cursor
+* :sparkles: Better language-gfm style
+
 ## 1.2.3
 
 * :lipstick: Update some styles
