@@ -1,6 +1,10 @@
 @import "syntax-variables";
 
-// linter-ui
+// linter-ui-default
+@syntax-linter-error: @red;
+@syntax-linter-warning: @yellow;
+@syntax-linter-info: @green;
+
 atom-text-editor.editor .linter-highlight, .linter-highlight {
   .error_type(@color, @priority) {
     .region {
