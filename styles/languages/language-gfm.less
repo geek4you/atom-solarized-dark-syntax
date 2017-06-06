@@ -65,10 +65,9 @@
   }
 
   .syntax--raw {
-    border-radius: 3px;
+    border-radius: 2px;
     color: @yellow;
-    background-color: @syntax-selection-color;
-    box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.1);
+    background-color: fade(@blue, 13%);
   }
 
   .syntax--comment.syntax--quote {
@@ -89,6 +88,15 @@
 
   .syntax--string.syntax--emoji {
     color: @green;
+  }
+
+  .syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--begin,
+      &.syntax--end {
+        color: @base00;
+      }
+    }
   }
 
 }
@@ -153,14 +161,14 @@
   // Code
   code {
     color: @yellow;
-    background-color: @syntax-selection-color;
+    background-color: fade(@blue, 13%);
     box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.3);
   }
 
   // KBD
   kbd {
     color: @yellow;
-    background-color: @syntax-selection-color;
+    background-color: fade(@blue, 13%);
     box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.3);
   }
 
