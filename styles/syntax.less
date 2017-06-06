@@ -133,11 +133,9 @@
 }
 
 .syntax--punctuation {
-  &.syntax--array,
-  &.syntax--parameters,
-  &.syntax--string,
-  &.syntax--variable {
-    &.syntax--begin, &.syntax--end {
+  &.syntax--definition {
+    &.syntax--begin,
+    &.syntax--end {
       color: @syntax-text-color;
     }
   }
