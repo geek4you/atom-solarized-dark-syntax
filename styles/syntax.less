@@ -133,12 +133,6 @@
 }
 
 .syntax--punctuation {
-  &.syntax--definition {
-    &.syntax--begin,
-    &.syntax--end {
-      color: @syntax-text-color;
-    }
-  }
   &.syntax--section.syntax--embedded {
     color: @red;
   }
@@ -150,11 +144,9 @@
         color: @syntax-comment-color;
       }
     }
-  }
-}
-
-.syntax--meta {
-  &.syntax--class {
-    color: @yellow;
+    &.syntax--begin,
+    &.syntax--end {
+      color: @syntax-text-color;
+    }
   }
 }
