@@ -1,7 +1,7 @@
 {
   "name": "atom-solarized-dark-syntax",
   "theme": "syntax",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "A dark syntax theme based on atom/solarized-dark-syntax and braver/Solarized.",
   "keywords": [
     "dark",
