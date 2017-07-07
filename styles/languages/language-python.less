@@ -1,0 +1,18 @@
+.syntax--source.syntax--python {
+
+  .syntax--support {
+    &.syntax--function {
+      color: @green;
+    }
+  }
+
+  .syntax--storage {
+    &.syntax--type {
+      &.syntax--function,
+      &.syntax--class {
+        color: @green;
+      }
+    }
+  }
+
+}
