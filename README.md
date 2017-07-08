@@ -18,11 +18,11 @@
   A dark syntax theme based on <a href="https://github.com/atom/solarized-dark-syntax">atom/solarized-dark-syntax</a> and <a href="https://github.com/braver/Solarized">braver/Solarized</a>.
 </p>
 
-## :checkered_flag: Let's jump right in
+## Let's jump right in
 
-All you need is two simple steps !!
+All you need is two simple steps!!
 
-### :inbox_tray: Installation
+### Install this package
 
 ####  Using APM
 
@@ -34,19 +34,17 @@ apm install atom-solarized-dark-syntax
 
 #### Using Atom
 
-1.  Open `Settings` > `install`
-2.  Select `Themes` filter
-3.  Search `atom-solarized-dark-syntax` and install
+1. Open **Settings** > **Install**
+2. Select **Themes** filter
+3. Search for **atom-solarized-dark-syntax** and install
 
-### :tshirt: Change your syntax theme
+### Change your syntax theme
 
-1.  Goto your atom settings page
-2.  Select `Themes` from the left menu
-3.  Select `Syntax Theme` and click `Atom Solarized Syntax` from the menu
+1. Open **Settings** > **Themes**
+2. Choose the **Atom Solarized Syntax** from the dropdown menu
+3. Cheers! :beers:
 
-Cheers :beers:
-
-## :camera: Screenshot
+## Screenshot
 
 ### language-c
 
@@ -84,6 +82,6 @@ Cheers :beers:
   <img src="https://raw.githubusercontent.com/ooJerryLeeoo/atom-solarized-dark-syntax/master/assets/language-shellscript.png" alt="language-shellscript">
 </p>
 
-## :page_facing_up: License
+## License
 
-This project is licensed under the MIT License - see the :page_facing_up: [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
