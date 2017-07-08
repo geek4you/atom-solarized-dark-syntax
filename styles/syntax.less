@@ -108,8 +108,8 @@
 
 .syntax--support {
   color: @green;
-  &.syntax--function {
-    color: @yellow;
+  &.syntax--function.syntax--construct {
+    color: @red;
   }
   &.syntax--variable {
     color: @blue;
@@ -136,6 +136,10 @@
     color: @red;
   }
   &.syntax--definition {
+    &.syntax--variable {
+      color: @green;
+    }
+
     &.syntax--html,
     &.syntax--begin,
     &.syntax--end {
