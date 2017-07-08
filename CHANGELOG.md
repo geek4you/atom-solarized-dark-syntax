@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.2.6
+
+* Better language-python, language-php and language-ruby styles
+* Remove italic comment
+* Update markdown-preview table style
+
+## 1.2.5
+
+* Update styles
+
 ## 1.2.4
 
 * :sparkles: Cursor pulsing and 2px cursor
