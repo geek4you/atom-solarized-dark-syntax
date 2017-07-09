@@ -29,12 +29,7 @@ atom-text-editor {
       }
 
       .icon-right {
-        color: @syntax-gutter-text-color;
-        transition: all 400ms ease;
-      }
-
-      .icon-right:hover {
-        color: @syntax-gutter-icon-color-folded;
+        color: @syntax-text-color;
       }
     }
   }
@@ -55,29 +50,6 @@ atom-text-editor {
     background-color: @syntax-selection-color;
   }
 
-
-  .gutter .line-number.folded,
-  .gutter .line-number:after,
-  .fold-marker:after {
-    color: @syntax-gutter-icon-color-folded;
-  }
-
-  .gutter .line-number.folded {
-    .icon-right {
-      color: @syntax-gutter-icon-color-folded;
-      transition: all 400ms ease;
-    }
-
-    .icon-right:hover {
-      color: white;
-    }
-  }
-
-  .bracket-matcher .region {
-    border-bottom: 2px solid @syntax-bracket-macher-color;
-    box-sizing: border-box;
-  }
-
   .find-result .region.region.region,
   .current-result .region.region.region {
     background-color: @syntax-result-marker-color;
@@ -89,5 +61,11 @@ atom-text-editor {
   .current-result .region.region.region {
     border: 2px solid @syntax-result-marker-color-selected;
     transition-duration: .1s;
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @syntax-gutter-text-color-selected;
   }
 }

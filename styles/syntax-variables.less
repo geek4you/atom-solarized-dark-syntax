@@ -42,14 +42,12 @@
 @syntax-color-class:     @blue;
 @syntax-color-keyword:   @green;
 @syntax-color-tag:       @blue;
-@syntax-color-attribute: @syntax-comment-color;
+@syntax-color-attribute: @base0;
 @syntax-color-import:    @red;
-@syntax-color-snippet:   @syntax-color-keyword;
+@syntax-color-snippet:   @green;
 
 // Custom Syntax Variables -----------------------------------
 // Warning: Don't use in packages
 
-@syntax-comment-color:            @base01;
-@syntax-gutter-icon-color-folded: lighten(@syntax-text-color, 20%);
-@syntax-cursor-line:              fade(lighten(@base03, 30%), 5%);
-@syntax-bracket-macher-color:     @syntax-text-color;
+@syntax-comment-color: @base01;
+@syntax-cursor-line:   fade(lighten(@base03, 30%), 5%);
