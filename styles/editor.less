@@ -9,23 +9,16 @@ atom-text-editor {
   }
 
   .gutter {
-    background-color: @syntax-gutter-background-color;
-    -webkit-font-smoothing: antialiased;
-
-    .line-numbers {
-      background-color: transparent !important;
-    }
     .line-number {
-      background-color: transparent;
       color: @syntax-gutter-text-color;
+      -webkit-font-smoothing: antialiased;
 
       &.cursor-line {
-        background-color: transparent;
         color: @syntax-gutter-text-color-selected;
+        background-color: @syntax-gutter-background-color-selected;
       }
-
       &.cursor-line-no-selection {
-        color: @syntax-gutter-text-color-selected;
+        background-color: transparent;
       }
 
       .icon-right {
