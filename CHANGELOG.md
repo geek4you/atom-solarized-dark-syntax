@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.7
+
+* Update styles
+
 ## 1.2.6
 
 * Better language-python, language-php and language-ruby styles
